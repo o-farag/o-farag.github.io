@@ -5,6 +5,10 @@
   width: 20%;
 }
 
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 h1, p {
 text-align: center;
 
@@ -12,4 +16,8 @@ text-align: center;
 
 img {
 border-radius: 50%;
+}
+
+body {
+  background-color: #fac32a;
 }
