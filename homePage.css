@@ -7,11 +7,16 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 h1, p {
 text-align: center;
 
+
+}
+h1 {
+font-weight: 700;
 }
 
 img {
@@ -19,5 +24,11 @@ border-radius: 50%;
 }
 
 body {
-  background-color: #fac32a;
+  background-color: #fac32a !important;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}	
