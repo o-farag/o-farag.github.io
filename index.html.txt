@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Omar Farag - Home</title>
+</head>
+<body>
+
+<h1>Omar Farag</h1>
+ <img src="OmarPhoto.jpg" alt="My profile picture"> 
+<p>My first paragraph.</p>
+
+</body>
+</html>
