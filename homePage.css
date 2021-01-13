@@ -17,18 +17,56 @@ text-align: center;
 }
 h1 {
 font-weight: 700;
+margin-top: 100px;
 }
 
-img {
-border-radius: 50%;
-}
+
 
 body {
   background-color: #fac32a;
 }
 
+	
+
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0;;
   padding: 0;
-}	
+  overflow: hidden;
+  background-color: #3f1d0b;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+
+
+border-right: 0px solid #bbb;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
