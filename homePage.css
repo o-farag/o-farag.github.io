@@ -8,18 +8,49 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+
 }
+
+.mbody {
+margin-right: 10%;
+margin-left: 10%;
+}
+
+#title {
+font-size: 200%;
+color: white;
+}
+
+#particles-js {
+height: 100%;
+width: 100%;
+position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0
+}
+
 
 h1, p {
 text-align: center;
+margin: 10px;
 
 
 }
 h1 {
 font-weight: 700;
 margin-top: 100px;
+margin-bottom: 50px;
+
 }
 
+
+
+img {
+float: left;
+
+
+}
 
 
 body {
@@ -69,4 +100,15 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+#skills {
+background-color: white;
+margin-top: 200px;
+}
+
+h2 {
+text-align: center;
+padding: 14px;
+
 }
