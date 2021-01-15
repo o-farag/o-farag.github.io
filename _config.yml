@@ -1,2 +1,6 @@
 baseurl: /
 theme: jekyll-theme-minimal
+title: Omar Farag
+description: [A short description of your site's purpose]
+
+show_downloads: "true"
