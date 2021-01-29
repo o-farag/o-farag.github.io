@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 #profilepic {
-border: 5px dashed black;
+border-radius: 8px;
 
   max-width: 65%;
   height: auto;
