@@ -54,7 +54,21 @@
           <h1 id="skillsTitle">My Skillz</h1> 
            <ul>
              <li onclick="openClose(1)">C++</li>
-             <script>
+             <li id="1" class="expandingBlocks" style="display:none">Explanation...</li>
+            <li onclick="openClose(2)">C</li>
+             <li id="2" class="expandingBlocks" style="display:none">Explanation...</li>
+            <li onclick="openClose(3)">C#</li>
+             <li id="3" class="expandingBlocks" style="display:none">Explanation...</li>
+             <li onclick="openClose(4)">Python</li>
+             <li id="4" class="expandingBlocks" style="display:none">Explanation...</li>
+             <li onclick="openClose(5)">Matlab</li>
+             <li id="5" class="expandingBlocks" style="display:none">Explanation...</li>
+             <li onclick="openClose(6)">Verilog</li>
+             <li id="6" class="expandingBlocks" style="display:none">Explanation...</li>
+             <li onclick="openClose(7)">Web Development (HTML, CSS)</li>
+             <li id="7" class="expandingBlocks" style="display:none">Explanation...</li>
+           </ul> 
+           <script>
               function openClose(y) {
                 var x = document.getElementById(y);
                 if (x.style.display === "none") {
@@ -64,14 +78,6 @@
                 }
               }
               </script>
-             <li id="1" class="expandingBlocks" style="display:none">Explanation...</li>
-            <li>C</li>
-            <li>C#</li>
-             <li>Python</li>
-             <li>Matlab</li>
-             <li>Verilog</li>
-             <li>Web Development (HTML, CSS)</li>
-           </ul> 
         </div>
       {{ content }}
 
