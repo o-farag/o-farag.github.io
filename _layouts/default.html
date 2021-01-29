@@ -53,10 +53,10 @@
         <div id="skills">
           <h1 id="skillsTitle">My Skillz</h1> 
            <ul>
-             <li onclick="openClose()">C++</li>
+             <li onclick="openClose(1)">C++</li>
              <script>
-              function openClose() {
-                var x = document.getElementById("expand");
+              function openClose(y) {
+                var x = document.getElementById(y);
                 if (x.style.display === "none") {
                   x.style.display = "block";
                 } else {
@@ -64,7 +64,7 @@
                 }
               }
               </script>
-             <li id="expand" class="expandingBlocks" style="display:none">Explanation...</li>
+             <li id="1" class="expandingBlocks" style="display:none">Explanation...</li>
             <li>C</li>
             <li>C#</li>
              <li>Python</li>
