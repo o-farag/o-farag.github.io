@@ -10,6 +10,7 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+     <script src="actions.js"></script> 
   </head>
   <body>
     <div class="wrapper">
@@ -68,16 +69,7 @@
              <li onclick="openClose(7)">Web Development (HTML, CSS)</li>
              <li id="7" class="expandingBlocks" style="display:none">Explanation...</li>
            </ul> 
-           <script>
-              function openClose(y) {
-                var x = document.getElementById(y);
-                if (x.style.display === "none") {
-                  x.style.display = "block";
-                } else {
-                  x.style.display = "none";
-                }
-              }
-              </script>
+           
         </div>
       {{ content }}
 
