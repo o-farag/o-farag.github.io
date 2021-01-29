@@ -13,7 +13,7 @@
       
   </head>
   <body>
-    <script src="actions.js"></script>
+    
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -54,6 +54,16 @@
         
         <div id="skills">
           <h1 id="skillsTitle">My Skillz</h1> 
+          <script>
+            function openClose(y) {
+            var x = document.getElementById(y);
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+          </script>
            <ul>
              <li onclick="openClose(1)">C++</li>
              <li id="1" class="expandingBlocks" style="display:none">Explanation...</li>
