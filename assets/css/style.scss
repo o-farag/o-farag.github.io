@@ -29,7 +29,13 @@ li {
   width: auto;
   padding-top: 2%;
    padding-bottom: 2%;
-  background-color: MediumSeaGreen; 
+  padding-left: 3%;
+  background-color: #4790c4; 
+  color: white;
+}
+
+li: hover {
+background-color: LightGray;
 }
 
 ul {
