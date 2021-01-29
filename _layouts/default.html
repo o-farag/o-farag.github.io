@@ -29,11 +29,7 @@
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
-        <div id="aboutMe">
-          <h1 id="aboutMeTitle">About Me</h1>
-          <p>I'm a 2nd Year Computer Engineering student at the University of Toronto. I've got a passion for technology and most subjects in the STEM field. I started learning programming and hardware in 2015, and I've been working with computers ever since.</p>
         
-        </div>
         
         
         {% if site.show_downloads %}
@@ -45,7 +41,11 @@
         {% endif %}
       </header>
       <section>
-
+          <div id="aboutMe">
+          <h1 id="aboutMeTitle">About Me</h1>
+          <p>I'm a 2nd Year Computer Engineering student at the University of Toronto. I've got a passion for technology and most subjects in the STEM field. I started learning programming and hardware in 2015, and I've been working with computers ever since.</p>
+        
+        </div>
       {{ content }}
 
       </section>
