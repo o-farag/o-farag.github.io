@@ -83,11 +83,11 @@
            
         </div>
         <h1 id="portfolioTitle"></h1> 
-        <h1 id="resumeTitle">My Resume</h1> 
+        
+        {{ <h1 id="resumeTitle">My Resume</h1> 
         <div id="Resume"></div>
         <script src="/assets/js/pdfobject.js"></script>
-        <script>PDFObject.embed("/OmarFaragResume.pdf", "#Resume");</script>
-        {{ content }}
+        <script>PDFObject.embed("/OmarFaragResume.pdf", "#Resume");</script> }}
   
       </section>
       <footer>
