@@ -82,7 +82,11 @@
            </ul> 
            
         </div>
-        {{ Content }}
+        <h1 id="resumeTitle">My Resume</h1> 
+        <div id="Resume"></div>
+        <script src="/js/pdfobject.js"></script>
+        <script>PDFObject.embed("OmarFaragResume.pdf", "#Resume");</script>
+        {{ content }}
   
       </section>
       <footer>
