@@ -83,12 +83,16 @@
            
         </div>
         <h1 id="portfolioTitle"></h1> 
-        <h1 id="resumeTitle">My Resume</h1> 
+        
+        {{ content }}
+  
+      </section>
+      
+      <section>
+      <h1 id="resumeTitle">My Resume</h1> 
         <div id="Resume"></div>
         <script src="/assets/js/pdfobject.js"></script>
         <script>PDFObject.embed("/OmarFaragResume.pdf", "#Resume");</script>
-        {{ content }}
-  
       </section>
       <footer>
         {% if site.github.is_project_page %}
