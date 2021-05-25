@@ -1,12 +1,16 @@
 {
+  "homepage": "http://yuribenjamin.github.io/my-app",
   "name": "mrboogle-github-io",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.0",
     "vite": "^2.3.3"
   },
   "dependencies": {
