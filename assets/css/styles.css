@@ -4,7 +4,7 @@
 :root {
     --header-height: 3rem;
 
-    --hue-color: 230;
+    --hue-color: 142;
 
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -970,6 +970,7 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
+
     .qualification_sections {
         display: grid;
         grid-template-columns: 0.6fr;
@@ -1147,15 +1148,6 @@ img {
     }
 }
 
-/* @media screen and (min-width: 1300px) {
-    .home_blob {
-        width: 450px;
-    }
-    .home_social {
-        transform: translateX(-10rem);
-    }
-
-    .services-container {
-        grid-template-columns: repeat(3, 400px);
-    }
-} */
+@media screen and (min-width: 1300px) {
+    
+}
