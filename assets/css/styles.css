@@ -1114,7 +1114,7 @@ img {
         padding: 6rem 0 2rem 2.5rem;
     }
     .services_modal-content {
-        width: 450px;
+        width: 80%;
     }
 
     .portfolio_img {
@@ -1182,6 +1182,9 @@ img {
     }
     .contact_inputs {
         grid-template-columns: 2 1fr;
+    }
+    .services_modal-content {
+        width: 900px;
     }
 }
 

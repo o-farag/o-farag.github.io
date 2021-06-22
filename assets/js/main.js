@@ -186,7 +186,7 @@ sr.reveal('.qualification_container', {delay: 300, origin: 'bottom'})
 
 //Reveal portfolio
 sr.reveal('.portfolio_container', {delay: 300, origin: 'left'})
-sr.reveal('.services_content', {delay: 300, distance: 0, scale: 0.5})
+//sr.reveal('.services_content', {delay: 300, distance: 0, scale: 0.5})
 
 //Reveal contact me
 sr.reveal('.contact', {delay: 400, distance: '100px', origin: 'bottom'})

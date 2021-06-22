@@ -14,13 +14,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
           -->
   <!-- Link Swiper's CSS -->
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper/swiper-bundle.min.css"
-/>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="https://unpkg.com/scrollreveal"></script>
+  
+  <!--Typer.js-->
+ <link rel="stylesheet" href="https://unpkg.com/typer-js/dist/typer.min.css"> 
+  
   <title>Omar Farag | Portfolio</title>
 </head>
 
@@ -116,7 +117,7 @@
           </div>
           <div class="home_data">
             <h1 class="home_title load-hidden">Howdy, I'm Omar</h1>
-            <h3 class="home_subtitle home_rem load-hidden">3rd Year Computer Engineering Student</h3>
+            <h3 class="home_subtitle home_rem load-hidden">A 3rd Year Computer Engineering Student</h3>
             <p class="home_description home_rem load-hidden">I'm gonna write some stuff here</p>
             <a href="#Contact" class="button button--flex home_rem load-hidden">
               Contact Me <i class="uil uil-message button_icon"></i>
@@ -144,13 +145,13 @@
             hardware in 2015, and I've been working with computers ever since.</p>
           <div class="about_info">
             <div>
-              <span class="about_info-title">08+</span>
+              <span class="about_info-title">04+</span>
               <span class="about_info-name">Years <br> experience</span>
             </div>
 
             <div>
-              <span class="about_info-title">20+</span>
-              <span class="about_info-name">Completed <br> projects</span>
+              <span class="about_info-title">10+</span>
+              <span class="about_info-name">Projects</span>
             </div>
 
 
@@ -478,7 +479,7 @@
           <div class="portfolio_content grid swiper-slide">
             <img src="assets/img/portfolioPlaceholder.jpg" alt="" class="portfolio_img">
             <div class="portfolio_data">
-              <h3 class="portfolio_title">Project 2</h3>
+              <h3 class="portfolio_title">ComeNGo GIS</h3>
               <p class="portfolio_description">vhjrbr bh fj bh</p>
               <a href="#" class="button button--flex button--small portfolio_button">
                 Demo
@@ -518,9 +519,9 @@
 
       <div class="services_container container grid">
         <!--Services 1-->
-        <div class="services_content load-hidden">
+        <div class="services_content">
           <div>
-            <i class="uil uil-web-grid services_icon"></i>
+            <i class="uil uil-lamp services_icon"></i>
             <h3 class="services_title">Mood Lights<br>Smart Lamp</h3>
           </div>
 
@@ -531,19 +532,27 @@
 
           <div class="services_modal">
             <div class="services_modal-content">
-              <h4 class="services_modal-title">Mood Lights<br>Smart Lamp</h4>
+              <h4 class="services_modal-title"></h4>
               <i class="uil uil-times services_modal-close"></i>
-              <!--Unordered list is what's inside the popup box-->
-              <ul class="services_modal-services grid">
-                <li class="services_modal-service">
-                  <i class="uil uil-check-circle services_modal-icon"></i>
-                </li>
-              </ul>
+              <div class="portfolio_content grid swiper-slide">
+                <img src="assets/img/moodLights.gif" alt="" class="portfolio_img">
+                <div class="portfolio_data">
+                  <h3 class="portfolio_title">Mood Lights</h3>
+                  <p class="portfolio_description">Our winning project, Mood Lights, is a smart Light-controlled Mood Ambient Device 
+                    that is designed to reduce stress by using light patterns. 
+                    It has different modes including weather mode, relaxing animations, notifications, etc. 
+                    It allows you to control it by using Google Home's Voice Commands.</p>
+                  <a href="https://github.com/MrBoogle/moodLights" target="_blank" class="button button--flex button--small portfolio_button">
+                    More Info
+                    <i class="uil uil-arrow-right button_icon"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <!--Services 2-->
-        <div class="services_content load-hidden">
+        <div class="services_content">
           <div>
             <i class="uil uil-web-grid services_icon"></i>
             <h3 class="services_title">Ui/Ux <br> Designer</h3>
@@ -570,7 +579,7 @@
         </div>
 
         <!--Services 3-->
-        <div class="services_content load-hidden">
+        <div class="services_content">
           <div>
             <i class="uil uil-web-grid services_icon"></i>
             <h3 class="services_title">Ui/Ux <br> Designer</h3>
@@ -600,7 +609,7 @@
     <!--Contact me-->
     <section class="contact section load-hidden" id="Contact">
       <h2 class="section_title">Contact Me</h2>
-      <span class="section_subtitle">Get in Touch</span>
+      <span class="section_subtitle">Hit me up</span>
 
       <div class="contact_container container grid">
         <div>
