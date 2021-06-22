@@ -169,6 +169,13 @@ const sr = ScrollReveal ({
     reset: false
 })
 
+//Reveal home section
 sr.reveal('.home_title', {})
 sr.reveal('.home_img', {delay: 200, origin: 'right'})
 sr.reveal('.home_rem', {delay: 1000, distance: '0px'})
+
+//Reveal About Me
+sr.reveal('.about', {delay: 1400, distance: 0})
+
+sr.reveal('.skills.section_title', {delay: 500, distance: 0})
+sr.reveal('.skills_content', {delay: 500, origin: 'bottom'})
