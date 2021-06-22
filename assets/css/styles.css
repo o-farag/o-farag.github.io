@@ -718,6 +718,10 @@ img {
     transform: translateX(0.25rem);
 }
 
+.button:hover .button_icon {
+    transform: translateX(0.25rem);
+}
+
 .swiper-button-prev::after, .swiper-button-next::after {
     content: '';
 }
