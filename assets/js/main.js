@@ -177,5 +177,16 @@ sr.reveal('.home_rem', {delay: 1000, distance: '0px'})
 //Reveal About Me
 sr.reveal('.about', {delay: 1400, distance: 0})
 
-sr.reveal('.skills.section_title', {delay: 500, distance: 0})
-sr.reveal('.skills_content', {delay: 500, origin: 'bottom'})
+//Reveal skills
+sr.reveal('.s_title', {delay: 300, distance: 0})
+sr.reveal('.skills_content', {delay: 300, origin: 'bottom'})
+
+//Reveal qualifications
+sr.reveal('.qualification_container', {delay: 300, origin: 'bottom'})
+
+//Reveal portfolio
+sr.reveal('.portfolio_container', {delay: 300, origin: 'left'})
+sr.reveal('.services_content', {delay: 300, distance: 0, scale: 0.5})
+
+//Reveal contact me
+sr.reveal('.contact', {delay: 400, distance: '100px', origin: 'bottom'})
