@@ -1100,7 +1100,7 @@ img {
         margin: 0 var(--mb-1);
     }
     .qualification_sections {
-        grid-template-columns: 0.5fr;
+        grid-template-columns: 0.75fr;
     }
 
     .services_container {

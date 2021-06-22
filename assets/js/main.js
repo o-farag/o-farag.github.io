@@ -190,3 +190,16 @@ sr.reveal('.portfolio_container', {delay: 300, origin: 'left'})
 
 //Reveal contact me
 sr.reveal('.contact', {delay: 400, distance: '100px', origin: 'bottom'})
+
+// Typing animation for home subtitle
+typer('.home_subtitle').line('A 3rd Year Computer Engineering Student @ UofT')
+.pause(2000)
+.back(44)
+.continue('Software Engineer')
+.pause(2000)
+.back(19)
+.continue('A 3rd Year Computer Engineering Student @ UofT')
+.pause(3000)
+.end()
+
+
