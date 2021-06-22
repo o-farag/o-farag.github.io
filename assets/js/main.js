@@ -160,3 +160,15 @@ window.onbeforeunload = () => {
       form.reset();
     }
   }
+
+/* Scroll reveal animation */
+const sr = ScrollReveal ({
+    origin: 'left',
+    distance: '80px',
+    duration: 2000,
+    reset: false
+})
+
+sr.reveal('.home_title', {})
+sr.reveal('.home_img', {delay: 200, origin: 'right'})
+sr.reveal('.home_rem', {delay: 1000, distance: '0px'})

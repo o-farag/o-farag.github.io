@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sr">
 
 <head>
   <link rel="icon" href="assets/img/profilePic.png">
@@ -20,7 +20,7 @@
 />
 
   <link rel="stylesheet" href="assets/css/styles.css">
-
+  <script src="https://unpkg.com/scrollreveal"></script>
   <title>Omar Farag | Portfolio</title>
 </head>
 
@@ -61,7 +61,7 @@
 
           <li class="nav_item">
             <a href="#Contact" class="nav_link">
-              <i class="uil uil-at nav_icon"></i> Contact
+              <i class="uil uil-at nav_icon"></i> Contact Me
 
             </a>
           </li>
@@ -87,7 +87,7 @@
     <section class="home section" id="Home">
       <div class="home_container container grid">
         <div class="home_content grid">
-          <div class="home_social">
+          <div class="home_social home_rem load-hidden">
             <a href="https://www.linkedin.com/in/omar-h-farag" target="_blank" class="home_social-icon">
               <i class="uil uil-linkedin"></i>
             </a>
@@ -96,7 +96,7 @@
               <i class="uil uil-github"></i>
             </a>
           </div>
-          <div class="home_img">
+          <div class="home_img load-hidden">
             <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink">
               <mask id="mask0" mask-type="alpha">
@@ -115,15 +115,15 @@
             </svg>
           </div>
           <div class="home_data">
-            <h1 class="home_title">Howdy, I'm Omar</h1>
-            <h3 class="home_subtitle">3rd Year Computer Engineering Student</h3>
-            <p class="home_description">I'm gonna write some stuff here</p>
-            <a href="#Contact" class="button button--flex">
+            <h1 class="home_title load-hidden">Howdy, I'm Omar</h1>
+            <h3 class="home_subtitle home_rem load-hidden">3rd Year Computer Engineering Student</h3>
+            <p class="home_description home_rem load-hidden">I'm gonna write some stuff here</p>
+            <a href="#Contact" class="button button--flex home_rem load-hidden">
               Contact Me <i class="uil uil-message button_icon"></i>
             </a>
           </div>
         </div>
-        <div class="home_scroll">
+        <div class="home_scroll home_rem load-hidden">
           <a href="#About" class="home_scroll-button button--flex">
             <i class="uil uil-mouse-alt home_scroll-mouse"></i>
             <span class="home_scroll-name">Scroll down</span>
@@ -137,7 +137,7 @@
       <h2 class="section_title">About Me</h2>
       <span class="section_subtitle">My introduction</span>
       <div class="about_container container grid">
-        <img src="" alt="about me picture" class="about_img">
+        <img src="assets/img/portfolioPlaceholder.jpg" alt="about me picture" class="about_img">
         <div class="about_data">
           <p class="about_description">I'm a 3rd Year Computer Engineering student at the University of Toronto. I've
             got a passion for technology and most subjects in the STEM field. I started learning programming and
@@ -613,7 +613,9 @@
               <i class="uil uil-envelope contact_icon"></i>
               <div>
                 <h3 class="contact_title">Email Me</h3>
-                <span class="contact_subtitle">omarfarag74@gmail.com</span>
+                <span class="contact_subtitle">
+                  <a class="email-clickable" href="mailto:omarfarag74@gmail.com">omarfarag74@gmail.com</a>
+                </span>
               </div>
             </div>
 
@@ -634,19 +636,29 @@
           </div>
           <div class="contact_content">
             <label for="" class="contact_label">Email</label>
-              <input type="email" name="_replyto" class="contact_input">
+              <input type="email" name="_replyto" class="contact_input" required>
+          </div>
+          <div class="contact_content">
+            <label for="" class="contact_label">Subject</label>
+              <input type="text"  class="contact_input">
           </div>
           
         </div>
         <div class="contact_content">
           <label for="" class="contact_label">Message</label>
-            <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
+            <textarea name="message" id="" cols="0" rows="7" class="contact_input" required></textarea>
         </div>
         <div>
-          <a href="#" class="buton button--flex">
-            <button type="submit">Send</button>
-            <i class="uil uil-message button_icon"></i>
-          </a>
+          
+            
+              <button  class="send_button button" type="submit">
+                Send 
+                <i class="uil uil-message button_icon"></i>
+              </button>
+            
+            
+            
+          
         </div>
       </form>
       </div>
