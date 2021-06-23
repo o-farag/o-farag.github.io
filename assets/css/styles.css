@@ -493,13 +493,7 @@ img {
     background-color: var(--first-color);
 }
 
-.skills_cplusplus {
-    width: 80%;
-}
 
-.skills_css {
-    width: 80%;
-}
 
 .skills_close .skills_list {
     height: 0;
@@ -839,6 +833,8 @@ img {
 .send_button:hover {
     cursor: pointer;
 }
+
+
 
 
 /* Footer */
