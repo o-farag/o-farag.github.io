@@ -1089,10 +1089,10 @@ img {
         text-align: initial;
     }
     .about_info {
-        justify-content: space-between;
+        justify-self: center;
     }
     .about_buttons {
-        justify-content: initial;
+        justify-content: center;
     }
 
     .qualification_tabs {
