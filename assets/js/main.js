@@ -189,15 +189,15 @@ sr.reveal('.portfolio_container', {delay: 300, origin: 'left'})
 //sr.reveal('.services_content', {delay: 300, distance: 0, scale: 0.5})
 
 //Reveal contact me
-sr.reveal('.contact', {delay: 400, distance: '100px', origin: 'bottom'})
+sr.reveal('.contact', {delay: 300, distance: '100px', origin: 'bottom'})
 
 // Typing animation for home subtitle
 typer('.home_subtitle').line('A 3rd Year Computer Engineering Student @ UofT')
 .pause(2000)
 .back(44)
-.continue('Software Engineer')
+.continue('Basketball Lover')
 .pause(2000)
-.back(19)
+.back(18)
 .continue('A 3rd Year Computer Engineering Student @ UofT')
 .pause(3000)
 .end()

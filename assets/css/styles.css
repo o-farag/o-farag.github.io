@@ -389,7 +389,7 @@ img {
 
 /* About section */
 .about_img {
-    width: 200px;
+    width: 100%;
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
@@ -491,6 +491,10 @@ img {
 .skills_percentage {
     display: block;
     background-color: var(--first-color);
+}
+
+.skills_number {
+    font-size: var(--mb-0-75);
 }
 
 
@@ -745,6 +749,7 @@ img {
 .swiper-button-prev, .swiper-button-next, .swiper-pagination-bullet {
     outline: none;
 }
+
 
 /* Contact me */
 
@@ -1070,9 +1075,9 @@ img {
         margin-right: auto;
         margin-left: auto;
     }
-    .home_scroll-button {
+    /* .home_scroll-button {
         margin-left: 3rem;
-    }
+    } */
 
     .about_container {
         column-gap: 5rem;
@@ -1152,6 +1157,10 @@ img {
     }
     .home_social {
         transform: translateX(-6rem);
+    }
+
+    .about_img {
+        width: 100%;
     }
 
     .services-container {
