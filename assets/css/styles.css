@@ -430,7 +430,7 @@ img {
 
 /* Skills */
 .skills_container {
-    row-gap: 0;
+    /* row-gap: 0; */
 }
 
 .skills_header {
@@ -464,7 +464,7 @@ img {
 }
 
 .skills_list {
-    row-gap: 1.5rem;
+    row-gap: 1rem;
     padding-left: 2.7rem;
 }
 
@@ -508,6 +508,7 @@ img {
 .skills_open .skills_arrow {
     transform: rotate(-180deg);
 }
+
 
 /* Qualifications */
 
@@ -1192,3 +1193,4 @@ img {
     margin-right: auto;
     margin-left: auto;
 }
+
