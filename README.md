@@ -14,6 +14,7 @@ Non-urgent
 - ~~Add mailto to email in contact section~~
 
 When done, start customizing
-- Fill out own information/experience
+- ~~Fill out own information/experience~~
+- - Could be made much better
 - Get a professional headshot and about me picture
 - ~~Add scroll reveal https://scrollrevealjs.org~~
