@@ -178,18 +178,18 @@ sr.reveal('.home_rem', {delay: 1000, distance: '0px'})
 sr.reveal('.about', {delay: 1400, distance: 0})
 
 //Reveal skills
-sr.reveal('.s_title', {delay: 300, distance: 0})
-sr.reveal('.skills_content', {delay: 300, origin: 'bottom'})
+sr.reveal('.s_title', {delay: 200, distance: 0})
+sr.reveal('.skills_content', {delay: 200, origin: 'bottom'})
 
 //Reveal qualifications
-sr.reveal('.qualification_container', {delay: 300, origin: 'bottom'})
+sr.reveal('.qualification_container', {delay: 200, origin: 'bottom'})
 
 //Reveal portfolio
-sr.reveal('.portfolio_container', {delay: 300, origin: 'left'})
+sr.reveal('.portfolio_container', {delay: 200, origin: 'left'})
 //sr.reveal('.services_content', {delay: 300, distance: 0, scale: 0.5})
 
 //Reveal contact me
-sr.reveal('.contact', {delay: 300, distance: '100px', origin: 'bottom'})
+sr.reveal('.contact', {delay: 200, distance: '100px', origin: 'bottom'})
 
 // Typing animation for home subtitle
 typer('.home_subtitle').line('A 3rd Year Computer Engineering Student @ UofT')
