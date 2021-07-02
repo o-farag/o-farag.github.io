@@ -300,7 +300,8 @@ img {
 }
 
 .home_blob-img {
-    width: 250px;
+    width: 200px;
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 .home_data {
