@@ -613,10 +613,15 @@ img {
 }
 
 .services_icon {
-    display: block;
+    display: inline-block;
     font-size: 1.5rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
+}
+
+.award_icon {
+    display: inline;
+    color: #ffd700;
 }
 
 .services_title {
