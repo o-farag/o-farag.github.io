@@ -180,7 +180,7 @@
       <div class="skills_container container grid">
         
           <!--Skill 1-->
-          <div class="skills_content skills_open load-hidden">
+          <div class="skills_content skills_close load-hidden">
             <div class="skills_header">
               <i class="uil uil-brackets-curly skills_icon"></i>
               <div>
@@ -483,6 +483,21 @@
         <div class="swiper-wrapper">
           <!--Portfolio 1-->
           <div class="portfolio_content grid swiper-slide">
+            <img src="assets/img/laserCut.gif" alt="" class="portfolio_img">
+            <div class="portfolio_data">
+              <h3 class="portfolio_title">Surgical Simulator</h3>
+              <p class="portfolio_description">Part of my research @ UofT with <a href="https://www.cs.toronto.edu/~lakahrs/">MEDCVR</a>. Using the Material Point Method to simulate softbodies,
+                we ware working on a simulation in Unity that will allow surgeons to simulate surgeries.
+              </p>
+              <a href="https://github.com/MrBoogle/3DEngine" target="_blank" class="button button--flex button--small portfolio_button">
+                More info
+                <i class="uil uil-arrow-right button_icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--Portfolio 2-->
+          <div class="portfolio_content grid swiper-slide">
             <img src="assets/img/3dEngineDemo.gif" alt="" class="portfolio_img">
             <div class="portfolio_data">
               <h3 class="portfolio_title">3D Software Renderer</h3>
@@ -495,7 +510,7 @@
               </a>
             </div>
           </div>
-          <!--Portfolio 2-->
+          <!--Portfolio 3-->
           <div class="portfolio_content grid swiper-slide">
             <img src="assets/img/GIS.gif" alt="" class="portfolio_img">
             <div class="portfolio_data">
@@ -510,19 +525,7 @@
               </a> -->
             </div>
           </div>
-          <!--Portfolio 3-->
-          <div class="portfolio_content grid swiper-slide">
-            <img src="assets/img/terminator.gif" alt="" class="portfolio_img">
-            <div class="portfolio_data">
-              <h3 class="portfolio_title">Terminator on a DE1-SoC FPGA</h3>
-              <p class="portfolio_description">We created a game inspired by The Terminator by writing to the pixel buffer on a DE1-SoC. 
-                Users input their commands via the PS/2 controller. </p>
-              <a href="https://github.com/MrBoogle/terminator" class="button button--flex button--small portfolio_button">
-                More Info
-                <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-            </div>
-          </div>
+          
         </div>
         <!-- Add Arrows -->
         <div class="swiper-button-next">
@@ -542,7 +545,7 @@
       <span class="section_subtitle s_title load-hidden">Some other work</span>
 
       <div class="services_container container grid">
-        <!--Services 1-->
+        <!--Collage 1-->
         <div class="services_content">
           <div>
             <i class="uil uil-lamp services_icon"></i>
@@ -576,7 +579,7 @@
             </div>
           </div>
         </div>
-        <!--Services 2-->
+        <!--Collage 2-->
         <div class="services_content">
           <div>
             <i class="uil uil-th-large services_icon"></i>
@@ -609,7 +612,38 @@
             </div>
           </div>
         </div>
+        <!--Collage 3-->
+        <div class="services_content">
+          <div>
+            <i class="uil uil-th-large services_icon"></i>
+            <h3 class="services_title">Terminator on a<br> DE1-SoC FPGA</h3>
+          </div>
 
+          <span class="button button--flex button--small button--link services_button">
+            View more
+            <i class="uil uil-arrow-right button_icon"></i>
+          </span>
+
+          <div class="services_modal">
+            <div class="services_modal-content">
+              <h4 class="services_modal-title"></h4>
+              <i class="uil uil-times services_modal-close"></i>
+              <div class="portfolio_content grid swiper-slide">
+                <img src="assets/img/terminator.gif" alt="" class="portfolio_img">
+                <div class="portfolio_data">
+                  <h3 class="portfolio_title">Terminator on a DE1-SoC FPGA</h3>
+                  <p class="portfolio_description">We created a game inspired by The Terminator by writing to the pixel buffer on a DE1-SoC. 
+                    Users input their commands via the PS/2 controller. 
+                  </p>
+                  <a href="https://github.com/MrBoogle/terminator" target="_blank" class="button button--flex button--small portfolio_button">
+                    More Info
+                    <i class="uil uil-arrow-right button_icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         
       </div>
     </section>
