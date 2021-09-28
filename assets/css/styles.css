@@ -127,6 +127,14 @@ a {
     text-decoration: none;
 }
 
+#med:link, #med:visited {
+    color: var(--first-color);
+}
+
+#med:hover {
+    color: var(--first-color-lighter);
+}
+
 img {
     max-width: 100%;
     height: auto;
