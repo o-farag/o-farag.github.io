@@ -1,3 +1,3 @@
-# This is my personal website
+# My Personal Portfolio
 
-My website showcases some of my skills and how I've used them, plus a few extra tidbits here and there.
+This website showcases some of my skills and how I've used them, plus a few extra tidbits here and there.
