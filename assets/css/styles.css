@@ -160,6 +160,10 @@ img {
     margin-bottom: var(--mb-3);
 }
 
+.contributions {
+    margin-top: var(--mb-3);;
+}
+
 .section_title, .section_subtitle {
     text-align: center;
 }
