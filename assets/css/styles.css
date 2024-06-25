@@ -11,17 +11,20 @@ html.sr .load-hidden {
     --hue-color: 200;
 
     --first-color: hsl(var(--hue-color), 69%, 61%);
-    --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #fff;
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+ 
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
+    --title-color: hsl(var(--hue-color), 8%, 95%);
+    --text-color: hsl(var(--hue-color), 8%, 75%);
+    --input-color: hsl(var(--hue-color), 29%, 16%);
+    --body-color: hsl(var(--hue-color), 28%, 12%);
+    --container-color: hsl(var(--hue-color), 29%, 16%);
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+        
 
     /*Body font*/
     --body-font: 'Poppins', sans-serif;
@@ -64,18 +67,6 @@ html.sr .load-hidden {
         --smaller-font-size: 0.813rem;
     }
 
-}
-
-/* Dark theme variables */
-body.dark-theme {
-    --first-color-second: hsl(var(--hue-color), 30%, 8%);
-    --title-color: hsl(var(--hue-color), 8%, 95%);
-    --text-color: hsl(var(--hue-color), 8%, 75%);
-    --input-color: hsl(var(--hue-color), 29%, 16%);
-    --body-color: hsl(var(--hue-color), 28%, 12%);
-    --container-color: hsl(var(--hue-color), 29%, 16%);
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
 
@@ -143,11 +134,12 @@ img {
 /* Reusable css classes */
 
 .section {
-    padding:  4rem 0 2rem;
+    padding:  1rem 0 0rem;
 }
 
 .home.section {
-    padding:  4rem 0 4rem;
+    padding:  1rem 0 0rem;
+    /* height: 100vh; */
 }
 
 .section_title {
@@ -312,7 +304,7 @@ img {
 }
 
 .home_blob-img {
-    width: 200px;
+    width: 220px;
     /*filter: drop-shadow(5px 5px 5px #222);*/
 }
 
@@ -409,7 +401,7 @@ img {
     width: 100%;
     border-radius: 0.5rem;
     justify-self: center;
-    align-self: center;
+    /* align-self: center; */
 }
 
 .about_description {
@@ -419,7 +411,7 @@ img {
 
 .about_info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -443,6 +435,10 @@ img {
     display: flex;
     justify-content: center;
     
+}
+
+.about_data {
+    margin: 0 auto;
 }
 
 /* Skills */
@@ -560,6 +556,15 @@ img {
     column-gap: 1.5rem;
 }
 
+.university {
+    display: contents;
+    /* grid-template-columns: 1fr max-content 1fr; */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .qualification_title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
@@ -570,6 +575,15 @@ img {
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
 }
+
+
+.qualification_footer {
+    font-size: var(--small-font-size);
+    display: table;
+    margin: var(--mb-1) auto;
+    line-height: 0.5;
+}
+
 
 .qualification_calendar {
     font-size: var(--smaller-font-size);
@@ -582,6 +596,12 @@ img {
     height: 13px;
     background-color: var(--first-color);
     border-radius: 50%;
+    position: relative;
+    /* z-index: 2; */
+}
+
+.paid_rounder {
+    background-color: #ffc815;
 }
 
 .qualification_line {
@@ -590,6 +610,7 @@ img {
     height: 100%;
     background-color: var(--first-color);
     transform: translate(6px, -7px);
+    /* z-index: 1; */
 }
 
 .qualification [data-content] {

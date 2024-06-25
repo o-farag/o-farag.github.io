@@ -125,34 +125,37 @@ function scrollUp(){
 window.addEventListener('scroll', scrollUp)
 
 /*==================== DARK LIGHT THEME ====================*/ 
-const themeButton = document.getElementById('theme-button')
-const darkTheme = 'dark-theme'
-const iconTheme = 'uil-sun'
+// const themeButton = document.getElementById('theme-button')
+// const darkTheme = 'dark-theme'
+// const iconTheme = 'uil-sun'
 
-// Previously selected topic (if user selected)
-const selectedTheme = localStorage.getItem('selected-theme')
-const selectedIcon = localStorage.getItem('selected-icon')
+// // Previously selected topic (if user selected)
+// const selectedTheme = localStorage.getItem('selected-theme')
+// const selectedIcon = localStorage.getItem('selected-icon')
 
-// We obtain the current theme that the interface has by validating the dark-theme class
-const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
-const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
+// localStorage.setItem('selected-theme', 'dark')
+//  document.body.classList.toggle(darkTheme)
 
-// We validate if the user previously chose a topic
-if (selectedTheme) {
-  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
-  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
-  themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
-}
+// // We obtain the current theme that the interface has by validating the dark-theme class
+// const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
+// const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
 
-// Activate / deactivate the theme manually with the button
-themeButton.addEventListener('click', () => {
-    // Add or remove the dark / icon theme
-    document.body.classList.toggle(darkTheme)
-    themeButton.classList.toggle(iconTheme)
-    // We save the theme and the current icon that the user chose
-    localStorage.setItem('selected-theme', getCurrentTheme())
-    localStorage.setItem('selected-icon', getCurrentIcon())
-})
+// // We validate if the user previously chose a topic
+// if (selectedTheme) {
+//   // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
+//   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+//   themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
+// }
+
+// // Activate / deactivate the theme manually with the button
+// themeButton.addEventListener('click', () => {
+//     // Add or remove the dark / icon theme
+//     document.body.classList.toggle(darkTheme)
+//     themeButton.classList.toggle(iconTheme)
+//     // We save the theme and the current icon that the user chose
+//     localStorage.setItem('selected-theme', getCurrentTheme())
+//     localStorage.setItem('selected-icon', getCurrentIcon())
+// })
 
 /* Clear form after submission */
 window.onbeforeunload = () => {
@@ -191,19 +194,26 @@ sr.reveal('.portfolio_container', {delay: 120, origin: 'left'})
 //Reveal contact me
 sr.reveal('.contact', {delay: 200, distance: '100px', origin: 'bottom'})
 
+backspace_speed = 30
 // Typing animation for home subtitle
-typer('.home_subtitle').line('A 3rd Year Computer Engineering Student @ UofT')
+typer('.home_subtitle', backspace_speed+20).line('UofT Computer Engineering ’24')
 .pause(2000)
-.back(44)
-.continue('Research Assistant @ MEDCVR')
-.pause(2000)
-.back(27)
-.continue('Basketball Player')
-.pause(2000)
-.back(19)
+.back('all', backspace_speed)
 
-.continue('A 3rd Year Computer Engineering Student @ UofT')
+.continue('Ex-Cloud Engineer Intern @ Red Hat')
 .pause(3000)
+.back('all', backspace_speed)
+
+.continue('Previous Research Assistant @ Medical Computer Vision & Robotics')
+.pause(2000)
+.back('all', backspace_speed)
+
+.continue('A weeb')
+.pause(2000)
+.back('all', backspace_speed)
+
+.continue('UofT Computer Engineering ’24')
+
 .end()
 
 
